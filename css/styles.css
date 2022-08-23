@@ -1,0 +1,238 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.coloured-section {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.white-section {
+    background-color: #ffffff;
+}
+
+/* Heading */
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+}    
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.tinder-icon {
+    width: 35px;
+    padding-bottom: 10px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: Light;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title */
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 9% 3% 12%;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 21%;
+    right: 18%;
+    top: 200px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+/* Features */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+#features {
+    position: relative;
+}
+
+.features-box {
+    padding: 5%;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.card {
+    margin: auto 15px;
+}
+
+.card-header>h3 {
+    margin: 8px auto;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.plain-text {
+    font-size: 20px;
+}
+
+.price-btn {
+    font-weight: 600;
+}
+
+.card-body {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+
+/* Call to Action */
+
+.container-cta-fluid {
+    padding: 7% 15% ;
+}
+
+
+#cta {
+    line-height: 1.5;
+}
+
+.cta-h3 {
+    font-size: 3.5rem;
+}
+
+/* Footer */
+
+#footer {
+    padding: 6% 8% 50px 8%;
+}
+
+.footer-icon {
+    padding-bottom: 20px;
+}
+
+i {
+    margin: auto 6px;
+}
+
+.footer-p {
+    font-weight: 600;
+}
+
+.footer-p1 {
+    font-weight: 600;
+    margin-bottom: 0px
+}
+
+/* J query */
+
+@media (max-width: 991px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        
+    }
+}
